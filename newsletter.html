@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>plants, pls!</title>
+        </head>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plants.html">Plants</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+            </ul>
+        </div>
+        
+        <h1>Newsletter</h1>
+        
+        <form action="/signedup" method="post">
+            <fieldset>
+                <legend>Sign up for the plants, pls! newsletter</legend>
+
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">I agree to receive emails from plants, pls!</label>
+                </div>
+                
+                <div>
+                    <label for="comments">Anything you'd like to share with plants, pls?</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Sign Up</button>
+                </div>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
