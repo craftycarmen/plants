@@ -67,3 +67,41 @@ navbar li a {
 .plants h2 {
     margin-top: 5px;
 }
+
+fieldset {
+    border: 0;
+}
+
+form {
+    width: 300px;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inlie-block;
+    width: 100px;
+    text-align: right;
+}
+
+input,
+textarea {
+    width: 425px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    border-color:#F45B69;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
