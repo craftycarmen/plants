@@ -14,4 +14,37 @@ body {
     font-family: 'Source Serif Pro', serif;
     font-size: 16px;
     color: #114B5F;
+    margin-top: 75px;
+    padding-left: 75px;
+}
+
+.header img {
+    width: 600px;
+}
+
+navbar {
+    background-color: #F9C80E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0 #89A894;
+}
+
+navbar * {
+    display: inline;
+}
+
+navbar li {
+    margin: 50px;
+}
+
+navbar li a {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: #114B5F;
+    text-decoration: none;
 }
