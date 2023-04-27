@@ -56,9 +56,14 @@ navbar li a {
 .plants {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     width: 600px;
 }
+
 .plants img {
-    width: 200px;
+    width: 250px;
+}
+
+.plants h2 {
+    margin-top: 5px;
 }
