@@ -23,7 +23,7 @@ body a {
 }
 
 .header img {
-    width: 600px;
+    width: 800px;
 }
 
 navbar {
@@ -51,6 +51,18 @@ navbar li a {
     font-size: 20px;
     color: #114B5F;
     text-decoration: none;
+}
+
+.main_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 800px;
+
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
 }
 
 .plants {
